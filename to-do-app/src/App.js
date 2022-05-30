@@ -26,7 +26,7 @@ function App() {
   }
 
   function changeStatus(id) {
-    debugger
+
     const newTaskList = taskList.map((task) => {
       if (task.id === id) {
         return { ...task, done: !task.done };
