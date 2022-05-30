@@ -16,19 +16,8 @@ function App2() {
   }
 
 
-// const filteredItems = listItem.filter(task => 
-//     task.done 
-        
-//      ).map((task) => {
-//         return <li onClick={() => handleStatusChange(task.id)}>{task.name}</li>;
-//       });
-    
-
 const filteredItems = listItem.filter(task =>  task.done
      ) 
-
-
-    
 
 const listItems = filteredItems.map((task) => {
     return <li onClick={() => handleStatusChange(task.id)}>{task.name}</li>;
